@@ -1,0 +1,68 @@
+Wyniki dla kopiowania:
+50000 rekordow, 4 bajty
+sys: Czas uzytkownika: 1 ms, Czas systemowy: 11 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 0 ms
+100000 rekordow, 4 bajty
+sys: Czas uzytkownika: 3 ms, Czas systemowy: 20 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 0 ms
+5000 rekordow, 512 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 1 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 0 ms
+10000 rekordow, 512 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 2 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 0 ms
+5000 rekordow, 4096 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 2 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 2 ms
+10000 rekordow, 4096 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 3 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 8 ms
+5000 rekordow, 8192 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 2 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 8 ms
+10000 rekordow, 8192 bajty
+sys: Czas uzytkownika: 0 ms, Czas systemowy: 7 ms
+lib: Czas uzytkownika: 0 ms, Czas systemowy: 12 ms
+
+Wyniki pomiarów czasów sortowania:
+
+	Rekord 4-bajtowy, 3000 elementów:
+	sys: Czas uzytkownika: 2890 ms, Czas systemowy: 25281 ms
+	lib: Czas uzytkownika: 4421 ms, Czas systemowy: 15156 ms
+
+	Rekord 4-bajtowy, 1000 elementów:
+	sys: Czas uzytkownika: 312 ms, Czas systemowy: 2812 ms
+	lib: Czas uzytkownika: 437 ms, Czas systemowy: 1750 ms
+
+
+	Rekord 512-bajtowy 2000 elementów:
+	sys: Czas uzytkownika: 1203 ms, Czas systemowy: 11922 ms
+	lib: Czas uzytkownika: 2312 ms, Czas systemowy: 10000 ms
+
+	Rekord 512-bajtowy 1000 elementów:
+	sys: Czas uzytkownika: 406 ms, Czas systemowy: 2781 ms
+	lib: Czas uzytkownika: 485 ms, Czas systemowy: 2421 ms
+
+
+	Rekord 4096-bajtowy 2000 elementów:
+	sys: Czas uzytkownika: 1250 ms, Czas systemowy: 14531 ms
+	lib: Czas uzytkownika: 2640 ms, Czas systemowy: 12141 ms
+	
+	Rekord 4096-bajtowy 1000 elementów:
+	sys: Czas uzytkownika: 375 ms, Czas systemowy: 3391 ms
+	lib: Czas uzytkownika: 750 ms, Czas systemowy: 2796 ms
+
+
+	Rekord 8192-bajtowy 2000 elementów:
+	sys: Czas uzytkownika: 1593 ms, Czas systemowy: 16390 ms
+	lib: Czas uzytkownika: 3531 ms, Czas systemowy: 14078 ms	
+	
+	Rekord 8192-bajtowy 1000 elementów:
+	sys: Czas uzytkownika: 406 ms, Czas systemowy: 3922 ms
+	lib: Czas uzytkownika: 781 ms, Czas systemowy: 3406 ms
+
+Przy kopiowaniu mo¿na zauwa¿yæ, ¿e funkcje systemowe radz± sobie zdecydowanie lepiej przy wiêkszych rekordach (tj. 4096 bajtów wzwy¿), a bibliotekowe przy mniejszych. Funkcji systemowych op³aca siê zatem u¿ywaæ wtedy, gdy mamy do czynienia z wiêkszymi rekordami, a bibioltecznych - gdy s± ma³e.
+
+Przy sortowaniu piêknie widaæ, ¿e insert sort ma z³o¿ono¶æ O(n^2). Czasy u¿ytkownika s± stale oko³o 2x wiêksze przy funkch bibliotecznych. Czas systemowy jest bardziej równy przy blokach wiêkszych od 4 bajtów.
+
+Podsumowuj±c - funkcje systemowe rozwijaj± skrzyd³a przy wiêkszych blokach danych!

@@ -1,0 +1,82 @@
+
+
+Rozmiar filtru: 3, liczba watkow: 1
+Czas rzeczywisty: 0.030188 s
+Czas uzytkownika: 3 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 3, liczba watkow: 2
+Czas rzeczywisty: 0.022977 s
+Czas uzytkownika: 3 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 3, liczba watkow: 4
+Czas rzeczywisty: 0.009011 s
+Czas uzytkownika: 2 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 3, liczba watkow: 8
+Czas rzeczywisty: 0.009238 s
+Czas uzytkownika: 3 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 3, liczba watkow: 16
+Czas rzeczywisty: 0.010207 s
+Czas uzytkownika: 2 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 20, liczba watkow: 1
+Czas rzeczywisty: 1.055373 s
+Czas uzytkownika: 103 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 20, liczba watkow: 2
+Czas rzeczywisty: 0.584201 s
+Czas uzytkownika: 108 ms
+Czas systemowy: 1 ms
+
+Rozmiar filtru: 20, liczba watkow: 4
+Czas rzeczywisty: 0.281782 s
+Czas uzytkownika: 103 ms
+Czas systemowy: 1 ms
+
+Rozmiar filtru: 20, liczba watkow: 8
+Czas rzeczywisty: 0.288053 s
+Czas uzytkownika: 105 ms
+Czas systemowy: 1 ms
+
+Rozmiar filtru: 20, liczba watkow: 16
+Czas rzeczywisty: 0.275863 s
+Czas uzytkownika: 100 ms
+Czas systemowy: 5 ms
+
+Rozmiar filtru: 65, liczba watkow: 1
+Czas rzeczywisty: 11.372197 s
+Czas uzytkownika: 1121 ms
+Czas systemowy: 0 ms
+
+Rozmiar filtru: 65, liczba watkow: 2
+Czas rzeczywisty: 5.963195 s
+Czas uzytkownika: 1156 ms
+Czas systemowy: 6 ms
+
+Rozmiar filtru: 65, liczba watkow: 4
+Czas rzeczywisty: 2.932384 s
+Czas uzytkownika: 1126 ms
+Czas systemowy: 8 ms
+
+Rozmiar filtru: 65, liczba watkow: 8
+Czas rzeczywisty: 2.923305 s
+Czas uzytkownika: 1129 ms
+Czas systemowy: 8 ms
+
+Rozmiar filtru: 65, liczba watkow: 16
+Czas rzeczywisty: 2.915341 s
+Czas uzytkownika: 1123 ms
+Czas systemowy: 12 ms
+
+Rozmiar filtru: 65, liczba watkow: 100
+Czas rzeczywisty: 2.933000 s
+Czas uzytkownika: 1119 ms
+Czas systemowy: 25 ms
+
